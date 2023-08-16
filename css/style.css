@@ -1,0 +1,29 @@
+body
+{
+    font-family: 'Lato', sans-serif !important;
+}
+
+nav img
+{
+    width: 220px;
+    object-fit: contain;
+}
+
+.navbar-light .navbar-nav a
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: #a4a49f;
+}
+
+.navbar-light .navbar-nav a:hover
+{
+    text-decoration: none;
+}
+
+
+.active
+{
+    color: black !important;
+}
+
