@@ -1,0 +1,75 @@
+.home-bg
+{
+    background-image: url('../img/car-service.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+
+.home-bg p
+{
+    color: #ffc023;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.home-bg h1
+{
+    background: -webkit-linear-gradient(#fff, #e9edf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.home-bg .btn-theme
+{
+    color: white;
+    background-color: black;
+    border: 2px solid #ffc023;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
+
+.service-section
+{
+    background: #f8f9fa ;
+}
+
+.service-section p
+{
+    color: black;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.service-section .service-wrapper
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-section .service-wrapper img
+{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+.service-section .service-wrapper:hover img
+{
+    transform: scale(1.2,1.2);
+}
+
+.service-section .service-wrapper .service-name
+{
+    background: linear-gradient(0deg, #191919 20%, #363636 75%);
+    color: white;
+    bottom: 0px;
+    font-weight: 600;
+}
