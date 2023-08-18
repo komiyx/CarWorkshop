@@ -35,7 +35,7 @@
 
 .service-section
 {
-    background: #f8f9fa ;
+    background: #f8f9fa;
 }
 
 .service-section p
@@ -43,6 +43,20 @@
     color: black;
     font-size: 2.2rem;
     font-weight: 600;
+}
+
+
+.service-section p:before
+{
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: #f91942;
+    position: absolute;
+    left: 0px;
+    bottom: 16px;
+    right: 0;
+    margin: 0 auto;
 }
 
 .service-section .service-wrapper
@@ -72,4 +86,131 @@
     color: white;
     bottom: 0px;
     font-weight: 600;
+}
+
+.choose-section
+{
+    background: #f5f6fa;
+    border-top: 2px solid #e4e2e2;
+}
+
+.choose-section .choose-text p
+{
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.choose-section .choose-text span
+{
+    color: #f91942;
+}
+
+.choose-section .choose-text label
+{
+    color: #818181;
+    font-size: 1.2rem;
+}
+
+
+.choose-section .choose-text p::before
+{
+    content: '';
+    width: 120px;
+    height: 3px;
+    background: #f91942;
+    position: absolute;
+    left: 0px;
+    bottom: 35px;
+    right: 0;
+    margin: 0 auto;
+}
+
+.choose-wrapper .item
+{
+    background: #fff;
+    text-align: center;
+    padding: 30px 25px;
+    -webkit-box-shadow:0 0px 25px rgba(0, 0, 0, 0.07);
+    box-shadow:0 0px 25px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    border:5px solid rgba(0, 0, 0, 0.07);
+    margin-bottom: 30px;
+    -webkit-transition: all .5s ease 0;
+    transition: all .5s ease 0;
+    transition: all 0.5s ease 0s;
+}
+
+.item .icon {
+    font-size: 40px;
+    margin-bottom:25px;
+    color: #f91942;   
+    width: 90px;
+    height: 90px;
+    line-height: 96px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.item .feature_box_col_one{
+    background:rgba(247, 198, 5, 0.20);
+    color:#f91942
+}
+.item .feature_box_col_two{
+    background:rgba(255, 77, 28, 0.15);
+    color:#f91942
+}
+.item .feature_box_col_three{
+    background:rgba(0, 147, 38, 0.15);
+    color:#f91942
+}
+
+.item h6
+{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+iframe
+{
+    display: block;
+    width: 90%;
+    max-width: 60rem;
+    height: 28em;
+    border: 1px solid black;
+}
+
+
+.contact h3
+{
+    font-weight: 600;
+}
+
+.contact .icon
+{
+    font-size: 1.6rem;
+    color: #ffc023;
+}
+
+.contact label
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.contact p
+{
+    color: #818181;
+}
+
+
+.footer p
+{
+    font-weight: 600;
+}
+
+.footer label
+{
+    color: #818181;
+    font-size: 0.9rem;
 }
