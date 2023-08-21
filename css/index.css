@@ -35,7 +35,7 @@
 
 .service-section
 {
-    background: #f8f9fa;
+    background: #d4d4d4;
 }
 
 .service-section p
@@ -45,6 +45,12 @@
     font-weight: 600;
 }
 
+#service-btn:hover
+{
+    color: black;
+    background-color: white;
+    border: 2px solid rgb(48, 47, 47);
+}
 
 .service-section p:before
 {
@@ -178,6 +184,10 @@ iframe
     border: 1px solid black;
 }
 
+.contact-section
+{
+    background-color: #eeeeee;
+}
 
 .contact h3
 {
