@@ -9,6 +9,11 @@ nav img
     object-fit: contain;
 }
 
+.navbar
+{
+    box-shadow: 0 2px 3px rgba(28,28,28,.1);
+}
+
 .navbar-light .navbar-nav a
 {
     font-size: 20px;
