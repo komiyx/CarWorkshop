@@ -15,3 +15,16 @@ body
 {
     width: 180px;
 }
+
+.navbar-section a
+{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.navbar-section a:hover
+{
+    text-decoration: none;
+    color: #f91942;
+}

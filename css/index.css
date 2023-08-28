@@ -7,11 +7,12 @@
     min-height: 100vh;
 }
 
+
 .home-bg p
 {
     color: #ffc023;
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .home-bg h1
@@ -19,7 +20,7 @@
     background: -webkit-linear-gradient(#fff, #e9edf6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 800;
 }
 
@@ -35,14 +36,21 @@
 
 .service-section
 {
-    background: #d4d4d4;
+    background: black;
 }
 
 .service-section p
 {
-    color: black;
+    color: white;
     font-size: 2.2rem;
     font-weight: 600;
+}
+
+.home-bg h4
+{
+    color: white;
+    font-style: italic;
+    font-size: 1.3rem;
 }
 
 #service-btn:hover
@@ -60,7 +68,7 @@
     background: #f91942;
     position: absolute;
     left: 0px;
-    bottom: 16px;
+    bottom: 7px;
     right: 0;
     margin: 0 auto;
 }
@@ -94,10 +102,49 @@
     font-weight: 600;
 }
 
+.about-us label
+{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.about-us label > span
+{
+    color:#f91942;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.about-us span
+{
+    color:white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.about-us img
+{
+    width: 100%;
+}
+
+
+.about-us label::before
+{
+    content: '';
+    width: 47px;
+    height: 3px;
+    background: #f91942;
+    position: absolute;
+    left: -91%;
+    bottom: -5px;
+    right: 0;
+    margin: 0 auto;
+}
+
 .choose-section
 {
-    background: #f5f6fa;
-    border-top: 2px solid #e4e2e2;
+    background: white;
 }
 
 .choose-section .choose-text p
@@ -136,7 +183,7 @@
 {
     background: #fff;
     text-align: center;
-    padding: 30px 25px;
+    padding: 20px 25px;
     -webkit-box-shadow:0 0px 25px rgba(0, 0, 0, 0.07);
     box-shadow:0 0px 25px rgba(0, 0, 0, 0.07);
     border-radius: 20px;
@@ -172,7 +219,12 @@
 .item h6
 {
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1rem;
+}
+
+.service-height
+{
+    height: 270px;
 }
 
 iframe
@@ -186,12 +238,16 @@ iframe
 
 .contact-section
 {
-    background-color: #eeeeee;
+    background-image: url('../img/contact-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .contact h3
 {
     font-weight: 600;
+    color: white;
 }
 
 .contact .icon
@@ -204,22 +260,34 @@ iframe
 {
     font-size: 1.2rem;
     font-weight: 600;
+    color: white;
 }
 
 .contact p
 {
-    color: #818181;
+    color: #c9c9c9;
+}
+
+
+.footer
+{
+    background: black;
 }
 
 
 .footer p
 {
-    font-weight: 600;
+    font-weight: 400;
+    color: white;
+    font-size: 0.8rem;
 }
 
-.footer label
+
+@media (min-width: 768px) 
 {
-    color: #818181;
-    font-size: 0.9rem;
+    
+    .home-bg
+    {
+        min-height: 40vh; 
+    }
 }
-
